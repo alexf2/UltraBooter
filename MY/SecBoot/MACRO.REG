@@ -1,0 +1,15 @@
+PushAll MACRO
+	Pushf
+        Pusha
+	Push es
+	Push ds
+ENDM
+
+PopAll MACRO
+	Pop ds
+	Pop es
+        Popa
+	Popf
+ENDM
+
+	
