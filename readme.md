@@ -56,7 +56,7 @@ int	2Fh
 ### Технология реализации
 
 <pre>\StorSec\:   detect.cpp, detect.h, dtypes.h, stsec.cpp.</pre>
-Исполняемый файл в модели small. Утилита командной строки.
+Исполняемый файл в модели small. Утилита командной строки.<br/>
 **Обращение:**
 ```bash
 		stsec.com /s drive track sec head count_OF_sec "outFile"
